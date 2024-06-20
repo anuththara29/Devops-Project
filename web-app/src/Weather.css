@@ -1,0 +1,102 @@
+.weather{
+    height: 100vh;
+    background-image: url("../src/Images/Screen.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10px;
+}
+.p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.location{
+    display: flex;
+    width: 400px;
+    height:50px;
+    background: #eaeaea;
+    border-radius: 6px;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.location input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+    text-align: center;
+}
+.submit1{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 580px;
+}
+.location img{
+    height: 30px;
+    margin-left: 5px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    height: auto;
+    
+}
+/*to get 2 columns in the container*/
+.col-30 {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+  }
+  
+  .col-70 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+  .col-30, .col-70, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+input[type=box], select, textarea {
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    font-size: 20px;
+  }

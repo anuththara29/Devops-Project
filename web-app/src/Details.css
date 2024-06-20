@@ -1,0 +1,37 @@
+.details{
+    height: 100vh;
+    background-image: url("../src/Images/rainbow.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#containerN{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    background-color: #ac9f9f;
+    height: 500px;
+    width: 600px;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.submit-container{
+    position: absolute;
+    left: 30px;
+    display: flex;
+    gap: 30px;
+    margin: 70px;
+    align-items: center;
+    
+}
